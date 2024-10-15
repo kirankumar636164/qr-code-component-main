@@ -1,0 +1,28 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+}
+.card{
+    padding: 15px;
+    text-align: left;
+}
+.card > img{
+    border-radius: 5%;
+}
+
+.card-title{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.card-text{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+}
